@@ -1,0 +1,126 @@
+/*Dit is de styling voor de Supermarkt folders pagina*/
+
+.folder-ah {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.folder-jumbo {
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.folder-coop {
+    width: 200px;
+    height: 300px;
+    background-color: orange;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.folder-plus {
+    width: 200px;
+    height: 300px;
+    background-color: green;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.folders-pagina-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*Dit is de styling voor de Supermarkten pagina*/
+
+.ah-info {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.jumbo-info {
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.coop-info {
+    width: 200px;
+    height: 300px;
+    background-color: orange;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.plus-info {
+    width: 200px;
+    height: 300px;
+    background-color: green;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.super-info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Dit is de styling voor de Lijst samenstellen pagina*/
+
+.lijst-samenstellen {
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-template-rows: repeat(6,30px);
+    align-items: baseline;
+}
+
+select {
+    width: 100px;
+}   
+
+.lijst-samenstellen-main {
+    height: 350px;
+}
+
+/*Dit is de styling voor de Over ons pagina*/
+
+.contactformulier {
+    border: 2px solid blue;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 696px) {
+    .folders-pagina-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+
+    .super-info-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+}
+
